@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="73474898-f241-419a-9841-3f571f14b794" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GPUVsCPU.ipynb" afterPath="$PROJECT_DIR$/GPUVsCPU.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model_eval-Overlayed.ipynb" afterPath="$PROJECT_DIR$/Model_eval-Overlayed.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conv_net/train.py" afterPath="$PROJECT_DIR$/conv_net/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logfile.log" afterPath="$PROJECT_DIR$/logfile.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Model_eval-Overlayed-Convnet-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Model_eval-Overlayed-Convnet-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model_eval-Overlayed-Convnet.ipynb" afterPath="$PROJECT_DIR$/Model_eval-Overlayed-Convnet.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +29,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conv_net/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1521942412526" expanded="true" signature="2237:3182" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="2428:3086" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="4263:6217" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="4574:4677" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="4722:4845" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="4891:5047" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="5589:6122" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="5624:5726" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="6005:6103" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="6174:6217" ph="..." />
+                <marker date="1521942412526" expanded="true" signature="6246:6480" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conv_net/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="353">
+              <caret line="252" column="39" lean-forward="false" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -45,8 +67,8 @@
       <file leaf-file-name="convnet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conv_net/convnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-889">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="356">
+              <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
               </folding>
@@ -54,11 +76,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logfile.log" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="840">
+                <caret line="34" column="411" lean-forward="true" selection-start-line="34" selection-start-column="411" selection-end-line="34" selection-end-column="411" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logfile.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logfile.log">
           <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="255">
-              <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="-120">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             </state>
           </provider>
         </entry>
@@ -180,7 +215,6 @@
         <option value="$PROJECT_DIR$/conv_net/utils.py" />
         <option value="$PROJECT_DIR$/data_transformation/data_prep.py" />
         <option value="$PROJECT_DIR$/conv_net/test.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/conv_net/resnet.py" />
         <option value="$PROJECT_DIR$/conv_net/ops.py" />
         <option value="$PROJECT_DIR$/notes/Experiment-Record.md" />
@@ -196,6 +230,7 @@
         <option value="$PROJECT_DIR$/conv_net/logfile.log" />
         <option value="$PROJECT_DIR$/conv_net/train.py" />
         <option value="$PROJECT_DIR$/logfile.log" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -414,7 +449,7 @@
     <frame x="1280" y="-83" width="2560" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07988871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11446741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -426,12 +461,23 @@
       <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36747852" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14326647" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3209169" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14427663" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07988871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36747852" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14326647" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -582,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +639,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/resnet.md" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/TODOS.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -691,10 +735,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conv_net/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="1152">
+          <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+            <marker date="1521942412526" expanded="true" signature="2237:3182" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="2428:3086" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="4263:6217" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="4574:4677" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="4722:4845" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="4891:5047" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="5589:6122" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="5624:5726" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="6005:6103" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="6174:6217" ph="..." />
+            <marker date="1521942412526" expanded="true" signature="6246:6480" ph="..." />
           </folding>
         </state>
       </provider>
@@ -719,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conv_net/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="353">
+          <caret line="252" column="39" lean-forward="false" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -746,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conv_net/convnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-889">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="356">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>
@@ -756,8 +811,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logfile.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="255">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="-120">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="840">
+            <caret line="34" column="411" lean-forward="true" selection-start-line="34" selection-start-column="411" selection-end-line="34" selection-end-column="411" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
