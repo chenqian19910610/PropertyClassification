@@ -32,7 +32,7 @@ Aerial, streetside images from google maps and bing maps are updated every 1-2 y
 
 Here's a snapshot of each image
 
-<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/assessor.jpg" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/streetside.jpg" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/aerial.png" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/overlayed.jpg" width="200" height="200">
+<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/assessor.png" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/streetside.jpg" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/aerial.png" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/overlayed.jpg" width="200" height="200">
 
 
 ### Model (Deep Nets) 
@@ -46,11 +46,12 @@ Let us now discuss all different models emplopyed for different types of images.
     </div>
     <div class="twoColumn">
          <p>
-            RESNET-18 model is trained with Satellite Images from google maps. RESNET's can go very deep and are very robust to the problem of vanishing gradient. In doing so, they are able to learn very complex features within the image. The center pixel in the google extracted image is the Latitude and Longitude of the address location. Since the RESNET-18 model takes input an image of shape 224x224x3, we central crop a 96x96 tile from the image and zero pad it to shape it as 224x224x3.  
+            RESNET-18 model is trained with Satellite Images from google maps. RESNET's can go very deep and are very robust to the problem of vanishing gradient. In doing so, they are able to learn very complex features within the image. The center pixel in the google extracted image is the Latitude and Longitude of the address location. Since the RESNET-18 model takes input an image of shape 224x224x3, we central crop a 96x96 tile from the image and zero pad it to shape it as 224x224x3. <br> 
          </p>
     </div>
 </div>
 
+--------------
 
 #### [CONV-NET](https://github.com/Sardhendu/PropertyClassification/blob/master/conv_net/convnet.py)
 
@@ -68,11 +69,12 @@ Let us now discuss all different models emplopyed for different types of images.
              boundaries required to create overlayed images are collected from <b>Open Street map</b>. These may not 
              be updated as frequently as Google maps. Moreover, getting building boundaries for all location may not 
              be feasible. One way to generate colored image given an satellite view is to use <b>Fully 
-             Convolutional Networks for semantic segmenting</b>[TODO].     
+             Convolutional Networks for semantic segmenting</b>[TODO]. <br>     
          </p>
     </div>
 </div>
     
+---------------
 
 #### [AUTOENCODER]() [TODO]
 
@@ -89,7 +91,7 @@ Let us now discuss all different models emplopyed for different types of images.
              of house and land and leave it for the autoencoder to find an encoding that could distinguish between 
              land and house. <br><br><b>Challange:</b> Assessor images might be expensive to obtain, since these 
              images are manually collected by organization/individuals. In a real scenario, finding assessor image 
-             for every address is overstated.   
+             for every address is overstated.<br>    
          </p>
     </div>
 </div>

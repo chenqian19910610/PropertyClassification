@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73474898-f241-419a-9841-3f571f14b794" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Model_eval-Overlayed-Convnet-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Model_eval-Overlayed-Convnet-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model_eval-Overlayed-Convnet.ipynb" afterPath="$PROJECT_DIR$/Model_eval-Overlayed-Convnet.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/aeerial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/assessor.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="840">
-                <caret line="34" column="411" lean-forward="true" selection-start-line="34" selection-start-column="411" selection-end-line="34" selection-end-column="411" />
+              <first_editor relative-caret-position="518">
+                <caret line="34" column="451" lean-forward="true" selection-start-line="34" selection-start-column="451" selection-end-line="34" selection-end-column="451" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -819,8 +818,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="840">
-            <caret line="34" column="411" lean-forward="true" selection-start-line="34" selection-start-column="411" selection-end-line="34" selection-end-column="411" />
+          <first_editor relative-caret-position="518">
+            <caret line="34" column="451" lean-forward="true" selection-start-line="34" selection-start-column="451" selection-end-line="34" selection-end-column="451" />
             <folding />
           </first_editor>
           <second_editor />
