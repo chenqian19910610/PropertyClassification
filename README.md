@@ -30,8 +30,7 @@ Aerial, streetside images from google maps and bing maps are updated every 1-2 y
     
   * Overlay building boundaries (collected from OSM) on satellite static images collected from google maps. For details look here [Overlay building boundary on static images](https://github.com/Sardhendu/PropertyClassification/tree/master/semantic_segmentation)    
 
-Here's a snapshot of each image
-
+Here's a snapshot of the images:
 
 <div id="image-table">
     <table>
@@ -53,7 +52,7 @@ Here's a snapshot of each image
 </div>
 
 
-### Model (Deep Nets) 
+### Models (Deep Nets) 
 Let us now discuss all different models emplopyed for different types of images.
 
 #### [RESNET-18](https://github.com/Sardhendu/PropertyClassification/blob/master/conv_net/resnet.py)
@@ -75,7 +74,7 @@ Let us now discuss all different models emplopyed for different types of images.
 
 <div id="wrapper">
     <div class="twoColumn">
-        <img align="right" width="200" height="200" src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/zeropad_overlayed.png">
+        <img align="right" width="200" height="200" src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/overlayed2.png">
     </div>
     <div class="twoColumn">
          <p>
