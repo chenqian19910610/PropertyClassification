@@ -32,7 +32,8 @@ Aerial, streetside images from google maps and bing maps are updated every 1-2 y
 
 Here's a snapshot of each image
 
-<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/assessor.png" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/streetside.jpg" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/aerial.png" width="200" height="200"> <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/overlayed.jpg" width="200" height="200">
+
+<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/assessor.png" width="200" height="200"><figcaption>Assessor Image</figcaption><img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/streetside.jpg" width="200" height="200"><figcaption>Streetside Image</figcaption><img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/aerial.png" width="200" height="200"><figcaption>Aerial Image</figcaption><img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/overlayed.jpg" width="200" height="200"><figcaption>Overlayed Image</figcaption>
 
 
 ### Model (Deep Nets) 
@@ -46,7 +47,7 @@ Let us now discuss all different models emplopyed for different types of images.
     </div>
     <div class="twoColumn">
          <p>
-            RESNET-18 model is trained with Satellite Images from google maps. RESNET's can go very deep and are very robust to the problem of vanishing gradient. In doing so, they are able to learn very complex features within the image. The center pixel in the google extracted image is the Latitude and Longitude of the address location. Since the RESNET-18 model takes input an image of shape 224x224x3, we central crop a 96x96 tile from the image and zero pad it to shape it as 224x224x3. <br> 
+            RESNET-18 model is trained with Satellite Images from google maps. RESNET's can go very deep and are very robust to the problem of vanishing gradient. In doing so, they are able to learn very complex features within the image. The center pixel in the google extracted image is the Latitude and Longitude of the address location. Since the RESNET-18 model takes input an image of shape 224x224x3, we central crop a 96x96 tile from the image and zero pad it to shape it as 224x224x3. <br><br>
          </p>
     </div>
 </div>
@@ -84,7 +85,7 @@ Let us now discuss all different models emplopyed for different types of images.
     </div>
     <div class="twoColumn">
          <p>
-            Autoencoders are used for Assessor Images. Assessor images are 5-7 years old and a there are high chance 
+            Autoencoders are used for Assessor Images. Assessor images are 5-9 years old and a there are high chance 
             that a Land property then would be a house now. This means that despite the label might say house the image
              might indicate a house. So we could either trust the labels or the image. Autoencoder are unsupervised 
              techniques that do not require a label to make a classification. We feed in the autoencoder with images 
