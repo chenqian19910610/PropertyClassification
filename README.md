@@ -33,7 +33,24 @@ Aerial, streetside images from google maps and bing maps are updated every 1-2 y
 Here's a snapshot of each image
 
 
-<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/assessor.png" width="200" height="200"><figcaption>Assessor Image</figcaption><img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/streetside.jpg" width="200" height="200"><figcaption>Streetside Image</figcaption><img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/aerial.png" width="200" height="200"><figcaption>Aerial Image</figcaption><img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/overlayed.jpg" width="200" height="200"><figcaption>Overlayed Image</figcaption>
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:5px">
+        	    <img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/assessor.png" width="200" height="200"><figcaption>Assessor Image</figcaption>
+      	    </td>
+            <td style="padding:5px">
+            	<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/streetside.jpg" width="200" height="200"><figcaption>Streetside Image</figcaption>
+             </td>
+            <td style="padding:5px">
+            	<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/aerial.png" width="200" height="200"><figcaption>Aerial Image</figcaption>
+             </td>
+             <td style="padding:5px">
+            	<img src="https://github.com/Sardhendu/PropertyClassification/blob/master/images/overlayed.jpg" width="200" height="200"><figcaption>Overlayed Image</figcaption>
+             </td>
+        </tr>
+    </table>
+</div>
 
 
 ### Model (Deep Nets) 
@@ -96,4 +113,7 @@ Let us now discuss all different models emplopyed for different types of images.
          </p>
     </div>
 </div>
+
+--------
+
 
